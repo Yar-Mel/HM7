@@ -7,7 +7,6 @@ setup(
     url='https://github.com/Yar-Mel/HM7',
     author='Yaroslav Melnychuk',
     author_email='yarmel.dev@gmail.com',
-    license='MIT',
     packages=find_namespace_packages(),
     entry_points={'console_scripts': ['clean-folder = clean_folder.clean:clean']}
 )
