@@ -1,5 +1,4 @@
-from setuptools import setup, find_namespace_packages
-
+from setuptools import setup
 setup(
     name='clean_folder',
     version='0.0.1',
@@ -7,6 +6,6 @@ setup(
     url='https://github.com/Yar-Mel/HM7',
     author='Yaroslav Melnychuk',
     author_email='yarmel.dev@gmail.com',
-    packages=find_namespace_packages(),
+    packages=['clean_folder'],
     entry_points={'console_scripts': ['clean-folder = clean_folder.clean:clean']}
 )
