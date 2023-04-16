@@ -1,7 +1,7 @@
 from setuptools import setup
 setup(
     name='clean_folder',
-    version='0.0.1',
+    version='0.0.3',
     description='file sorter for specific extensions',
     url='https://github.com/Yar-Mel/HM7',
     author='Yaroslav Melnychuk',

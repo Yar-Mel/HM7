@@ -144,18 +144,6 @@ def main(work_folder: Path) -> None:
             handle_folder(folder)
     
     print('-' * 50)
-    print(f'ARCHIVES {archives}')
-    print('-' * 50)
-    print(f'AUDIO {audio}')
-    print('-' * 50)
-    print(f'DOCUMENTS {documents}')
-    print('-' * 50)
-    print(f'IMAGES {images}')
-    print('-' * 50)
-    print(f'VIDEO {video}')
-    print('-' * 50)
-    print(f'REGISTER_EXTENTIONS {extensions}')
-    print('-' * 50)
     print(f'UNKNOWN_EXTENSIONS {unknown_extensions}')
     print('-' * 50)
 
@@ -164,7 +152,7 @@ def clean():
         user_input = input(f'Do you realy want to sort folder {Path(sys.argv[1]).name}? y/n: ')
         if user_input == 'y':
             main(Path(sys.argv[1]))
-            print('Successful. You filels in "Sorted" folder')
+            print('Successful. You filels in "Sorted" folder. Files with unknown extensions not been touched')
             break
         elif user_input == 'n':
             print('Cancelling')
