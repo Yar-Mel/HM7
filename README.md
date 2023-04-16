@@ -1,4 +1,5 @@
 File sorter for homework №7
+
 Wokr with:
 
 IMAGES = ['JPEG', 'PNG', 'JPG', 'SVG']
