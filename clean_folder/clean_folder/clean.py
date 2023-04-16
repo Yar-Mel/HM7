@@ -161,10 +161,10 @@ def main(work_folder: Path) -> None:
 
 def clean():
     while True:
-        user_input = input(f'Do you realy want to sort folder {Path(sys.argv[1]).name}? y/n: ')
+        user_input = input(f'Do you really want to sort folder "{Path(sys.argv[1]).name}"? y/n: ')
         if user_input == 'y':
             main(Path(sys.argv[1]))
-            print('Successful. You filels in "Sorted" folder. Files with unknown extensions not been touched')
+            print('Successful. You files in "Sorted" folder. Files with unknown extensions has not been touched')
             break
         elif user_input == 'n':
             print('Cancelling')
