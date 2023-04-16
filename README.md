@@ -1,6 +1,6 @@
 File sorter for homework №7
 
-Wokr with:
+Work with:
 
 IMAGES = ['JPEG', 'PNG', 'JPG', 'SVG']
 
